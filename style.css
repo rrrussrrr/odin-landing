@@ -1,6 +1,6 @@
 .hero {
     background-color: #1f2937;
-    padding: 0 80px
+    padding: 0 180px 80px 180px;
 }
 
 .header{
@@ -21,13 +21,12 @@
 .hero-content{
 
     display:flex;
-    align-items:center;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .hero-txt{
-
-    align-self: flex-start;
+    width: 300px;
 }
 .hero-main{
     color:#f9faf8;
@@ -44,4 +43,9 @@
     width: 300px;
     height:auto;
 
+}
+
+.signup{
+    background-color:#3882F6;
+    color:#f9faf8;
 }
