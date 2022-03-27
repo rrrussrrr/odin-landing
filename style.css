@@ -21,12 +21,11 @@
 .hero-content{
 
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
 }
 
 .hero-txt{
-    width: 300px;
 }
 .hero-main{
     color:#f9faf8;
@@ -48,4 +47,7 @@
 .signup{
     background-color:#3882F6;
     color:#f9faf8;
+    border-radius:15px;
+    font-size: 18px;
+    border:none;
 }
