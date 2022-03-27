@@ -72,13 +72,15 @@ html, body, html * {
 
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 180px 60px 180px;
     flex-wrap:wrap;
 }
 
 .info-txt{
     font-size: 18px;
+    text-align: center;
+    width: 200px;
 }
 
 .info-pic {
@@ -87,7 +89,6 @@ html, body, html * {
     height: 200px;
     border: 5px solid #3882F6;
     border-radius: 5px;
-    margin: 10px 10px;
 }
 
 /*Quote Section*/
