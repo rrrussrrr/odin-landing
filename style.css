@@ -54,6 +54,7 @@ html, body, html * {
     border-radius:15px;
     font-size: 18px;
     border:none;
+    padding: 5px 20px;
 }
 
 /* Info Section */
@@ -94,7 +95,7 @@ html, body, html * {
     background-color: #e5e7eb;
     display:flex;
     flex-direction: column;
-    padding: 50px 200px 50px 200px;
+    padding: 50px 200px;
 }
 
 #quote-section > p:first-child{
@@ -110,4 +111,41 @@ html, body, html * {
     font-weight: 900;
     color: #1f2937;
     align-self: flex-end;
+}
+
+/*Bottom section*/
+
+#bottom-section{
+
+    padding: 100px 200px;
+}
+#bottom-bluebox {
+
+    background-color: #3882F6;
+    border-radius: 5px;
+    display:flex;
+    padding: 25px 50px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#bottom-bluebox > div > h3 {
+    color: #f9faf8;
+}
+
+#bottom-bluebox > div > p {
+    color: #e5e7eb;
+}
+
+#bottom-bluebox  > button{
+
+        background-color:#3882F6;
+        color:#f9faf8;
+        border-color: #f9faf8;
+        border-radius:15px;
+        font-size: 18px;
+        align-self: center;
+        padding: 5px 20px;
+
+    
 }
