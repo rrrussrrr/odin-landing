@@ -1,10 +1,9 @@
-.hero {
+#hero-section {
     background-color: #1f2937;
     padding: 0 180px 80px 180px;
 }
 
 .header{
-
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -25,8 +24,7 @@
     gap: 50px;
 }
 
-.hero-txt{
-}
+
 .hero-main{
     color:#f9faf8;
     font-size: 48px;
@@ -57,6 +55,7 @@
     font-size:36px;
     color:#1f2937;
     font-weight: 800;
+    text-align:center;
 }
 
 #info-content {
