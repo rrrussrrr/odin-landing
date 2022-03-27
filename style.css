@@ -21,6 +21,13 @@
 .hero-content{
 
     display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.hero-txt{
+
+    align-self: flex-start;
 }
 .hero-main{
     color:#f9faf8;
@@ -31,4 +38,10 @@
 .hero-sub{
     color:#e5e7eb;
     font-size: 18px;
+}
+
+.hero-img{
+    width: 300px;
+    height:auto;
+
 }
