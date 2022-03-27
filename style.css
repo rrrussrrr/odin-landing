@@ -18,7 +18,10 @@
     color:#e5e7eb;
     font-size: 18px;
 }
+.hero-content{
 
+    display:flex;
+}
 .hero-main{
     color:#f9faf8;
     font-size: 48px;
